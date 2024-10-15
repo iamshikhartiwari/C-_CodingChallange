@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\LoanManagementSystem.Entity\LoanManagementSystem.Entity.csproj" />
+      <ProjectReference Include="..\LoanManagementSystem.ExceptionHandling\LoanManagementSystem.ExceptionHandling.csproj" />
+      <ProjectReference Include="..\LoanManagementSystem.Utils\LoanManagementSystem.Utils.csproj" />
+    </ItemGroup>
+
+</Project>
